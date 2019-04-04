@@ -39,9 +39,9 @@ def open_file():
     text.insert('1.0', data)
  
 root = tkinter.Tk()
-root.title("JPad v0.1b")
+root.title("TEXTEDIT")
 root.minsize(width=400, height=400)
-root.maxsize(width=400, height=400)
+root.maxsize(width=800, height=600)
  
 text = tkinter.Text(root, width=400, height=400)
 text.pack()
